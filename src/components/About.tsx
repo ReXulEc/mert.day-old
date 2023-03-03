@@ -13,7 +13,7 @@ const About = () => {
                         
                         <div className="flex space-x-2">
                             <p className="text-sm font-semibold">{">"}</p>
-                            <p className="md:w-1/2 text-sm mobile:text-left">Im a {new Date().getFullYear() - 2007} years old self taught front-end developer from Izmir, Turkey. I'm currently working with React, Next.js, Svelte and Vue.js. I'm also learning Python and C#. My current goal is to improve and become a professional in front-end development.</p>
+                            <p className="md:w-1/2 text-sm mobile:text-left">Im a {new Date().getFullYear() - 2007} years old self taught front-end developer from Izmir, Turkey. I am currently working with React, Next.js, Svelte and Vue.js. I am also learning Python and C#. My current goal is to improve and become a professional in front-end development.</p>
                         </div>
                     </div>
                 </div>
