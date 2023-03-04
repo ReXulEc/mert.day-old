@@ -60,3 +60,25 @@
             0px 21px 42px rgba(0, 0, 0, 0.3);
   transition-duration: 200ms;
 }
+
+.invert {
+  filter: invert(1);
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 24px;
+  height: 24px;
+}
+::-webkit-scrollbar-thumb {
+  background: #172936;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #172936;
+}

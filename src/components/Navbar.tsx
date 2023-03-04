@@ -19,6 +19,10 @@ const Navbar = () => {
             link: "/",
         },
         {
+            name: "experience",
+            link: "/experience",
+        },
+        {
             name: "stats",
             link: "/stats",
         },
@@ -38,7 +42,7 @@ const Navbar = () => {
             icon: Linkedin,
         },
         {
-            url: "https://discord.com/users/921055019334258758",
+            url: "https://discord.com/users/607507574018801664",
             icon: Discord,
         },
         {
@@ -61,7 +65,7 @@ const Navbar = () => {
         },
         closed: {
             opacity: 0,
-            width: "0%",
+            width: 0,
             transition: {
                 duration: 0.2,
             }
@@ -69,7 +73,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="w-full h-10 border-b border-gray-800 flex items-center justify-between font-fira text-[#607B96] ">
+        <nav className="w-full h-10 border-b border-gray-800 flex items-center justify-between font-fira text-[#607B96]">
             <div className="flex items-center text-sm h-full">
                 <Link
                     href="/"
@@ -115,7 +119,7 @@ const Navbar = () => {
                         href="/"
                         className="px-5 text-sm h-full flex items-center transition duration-200 hover:text-white"
                     >
-                        mert.gay
+                        mert.day
                     </Link>
                     <button
                         className="flex p-5 h-full items-center"

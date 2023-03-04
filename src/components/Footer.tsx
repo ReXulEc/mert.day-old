@@ -33,7 +33,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="mobile:hidden z-[99] w-full h-10 border-t  border-gray-800 flex justify-between items-center font-fira text-[#607B96]">
+        <footer className="mobile:hidden mobile:h-0 z-[99] w-full h-10 border-t  border-gray-800 flex justify-between items-center font-fira text-[#607B96]">
             <aside className="flex h-full ">
 
                 <p className="border-r text-sm border-gray-800 h-full flex items-center justify-center px-10">
