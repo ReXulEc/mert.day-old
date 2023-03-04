@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
+
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const router = useRouter();
     const size = useWindowSize();
-    console.log(size.value);
     const stylesa = { height: `calc(100% - ${size.value}rem)` }
     return (
         <motion.div exit={{ opacity: 0, transition: { duration: 1 } }} className="w-full h-screen flex flex-col justify-">
@@ -31,11 +31,14 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     );
 };
 
+
 // Hook
 function useWindowSize() {
     // Initialize state with undefined width/height so server and client renders match
     // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-    const [windowSize, setWindowSize] = useState({
+
+
+    const [windowSize, setWindowSize] = useState<any>({
       width: undefined,
       height: undefined,
       value: undefined,
