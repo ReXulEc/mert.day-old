@@ -10,6 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     const router = useRouter();
     const size = useWindowSize();
     const stylesa = { height: `calc(100% - ${size.value}rem)` }
+    console.log(size.value)
     return (
         <motion.div exit={{ opacity: 0, transition: { duration: 1 } }} className="w-full h-screen flex flex-col justify-">
             <Header />
