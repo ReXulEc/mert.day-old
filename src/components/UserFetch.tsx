@@ -1,7 +1,7 @@
 import React,{useState,useEffect, } from 'react';
 
 
-export default function FetchOrgMembers({org}: any, {count}: number) {
+export default function FetchOrgMembers({org}: any) {
     const [data,setData]=useState<any[]>([]);
     const getData=()=>{
         fetch(`https://api.github.com/orgs/${org}/members`
