@@ -10,8 +10,8 @@ const Home: NextPage = () => {
         <div className="flex flex-col rounded-xl md:w-9/12 w-10/12 mobile:py-4 py-10">
           <div className="flex flex-col space-y-6 mobile:pt-3 ">
             <section id="experiances" className="space-y-6">
-              <section className="space-y-2 group">
-                <div className="flex space-x-4 items-center">
+              <section className="space-y-2">
+                <div className="flex space-x-4 group items-center">
                   <Image
                     src="/img/openanimetransp.png"
                     width={"100"}
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <section className="w-full border-b-[1px] border-stone-400/20">
-                  <UserFetch className="group" org={"openanime"} />
+                  <UserFetch className="" org={"openanime"} />
                 </section>
                 <div className="md:w-2/3 w-11/12 md:text-base text-sm space-y-2 text-stone-300">
                   <p className="">
